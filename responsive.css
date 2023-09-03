@@ -1,0 +1,42 @@
+@media screen and (max-width:1273px) {
+    nav{
+        flex-direction: column;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .secondSection .box{
+        width: 50vw;
+    }
+    .firstSection{
+        flex-direction: column-reverse;
+    }
+    .leftSection{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightSection{
+        width: 360px !important;
+    }
+    .rightSection img{
+        width: 45vw;
+        margin: 49px;
+    }
+    .vertical-title{
+        left: 45px;
+        top: 68px;
+    }
+    .vertical-desc{
+        left: 45px;
+        top:76px;
+    }
+    .image-top{
+        width: 30px;
+        position: relative;
+        top: 107px;
+        left: -11px;
+    }
+}
